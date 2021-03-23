@@ -1,7 +1,7 @@
 {
-  "name": "mymonero-exchange",
-  "version": "0.1.5",
-  "description": "This module is used by the desktop and web versions of the MyMonero wallet to facilitate the exchange of XMR into other cryptocurrencies. It can be used to facilitate transactions where a user converts one cryptocurrency into another.",
+  "name": "wazniya-exchange",
+  "version": "0.9.9",
+  "description": "This module is used by the desktop and web versions of the Wazniya wallet to facilitate the exchange of WAZN into other cryptocurrencies. It can be used to facilitate transactions where a user converts one cryptocurrency into another.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,22 +9,19 @@
   "keywords": [
     "cryptocurrency-conversion",
     "cryptocurrency-exchange",
-    "mymonero",
-    "xmrtobtc",
-    "monerotobitcoin",
-    "monero-to-bitcoin"
+    "wazniya",
+    "wazntobtc",
+    "wazntobitcoin",
+    "wazn-to-bitcoin"
   ],
-  "author": "MyMonero",
+  "author": "wazniya",
   "repository": {
     "type" : "git",
-    "url" : "https://github.com/mymonero/mymonero-exchange-js.git"
+    "url" : "https://github.com/wazniya/wazniya-exchange-js.git"
   },
-  "homepage": "https://mymonero.com",
-  "bugs" : { 
-    "url" : "https://github.com/mymonero/mymonero-exchange-js/issues", 
-    "email" : "info@mymonero.com"
+  "homepage": "https://wazniya.com",
   },
-  "license": "BSD-3-Clause",
+  "license": "EUPL-1.2",
   "dependencies": {
     "axios": "^0.21.0"
   }
